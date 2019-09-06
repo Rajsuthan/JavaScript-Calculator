@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito",sans-serif;
+  background: rgb(42, 42, 42);
+}
+
+header {
+  text-align: center;
+  background: rgb(42, 238, 107);
+  padding: 10px;
+  color: rgb(42, 42, 42);;
+}
+
+.calculator {
+  text-align: center;
+  background: rgb(36, 219, 97);
+  margin: 50px auto;
+  width: 80%;
+  padding: 20px 5px;
+  border-radius: 3px;
+  box-shadow: 0px 5px 1px rgb(195, 195, 195);
+}
+
+.input_1, .input_2 {
+  border: none;
+  outline: none;
+  width: 240px;
+  height: 6vh;
+  margin: 7px auto;
+  padding: 4px;
+  font-family: "nunito",sans-serif;
+}
+
+select {
+  outline: none;
+  border: none;
+  background: beige;
+  font-family: "nunito",sans-serif;
+  margin: 15px auto;
+}
+
+.submitBtn {
+  padding: 4px 7px;
+  outline: none;
+  border: none;
+  border-radius: 1px;
+  width: 90%;
+  height: 5.5vh;
+  background: rgb(42, 42, 42);
+  margin: 10px 0px 0px 0px;
+  font-family: "nunito",sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.submitBtn:hover {
+  background: aliceblue;
+  color: black;
+}
+
+.result {
+  text-align: center;
+  color: rgb(35, 202, 91);
+}
+
+.result h3 {
+  font-size: 20px;
+}
+
+.result h1 {
+  display: none;
+  background: rgb(216, 216, 216);
+  margin: 20px auto;
+  padding: 5px;
+  width: 65%;
+}
